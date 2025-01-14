@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDIAS DINAMICAS</title>
+</head>
+<body>
+    <h1>IMAGENS DINAMICAS</h1>
+    <P>Tente abrir esse site em dispositivos diferentes
+    </P>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/300x300-celular.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/700x700-tablet.png" type="image/png">
+        <img src="imagens/1000x1000-tv.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/goodenergy.mp3" type="audio/mpeg">
+    </audio>
+    <H1>Vídeos</H1>
+    <p>Inserindo vídeos hospedados localmente, no meu proprio servidor.</p>
+    <video width="300" poster="midia/capapeixe.jpeg" autoplay controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+    </video>
+    <h1>Inserindo vídeo do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B6uuIHpFkuo?si=aTRf608m1UNl6JtF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

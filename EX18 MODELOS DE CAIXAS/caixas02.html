@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            margin:  0px;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(180, 119, 153);
+            color: rgb(114, 114, 114);
+        }
+        header {
+            background-color: rgb(255, 205, 233);
+            padding: 5px;
+            margin: 5px;
+            border-radius: 15px;
+        }
+
+        nav {
+            background-color: aliceblue;
+            padding: 3px;
+
+        }
+
+        nav > a {
+            text-decoration: none ;
+            color: rgb(255, 4, 150);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+
+        main {
+            background-color: rgb(255, 231, 248);
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 9px 0px rgb(29, 29, 29);
+            
+        }
+
+        article {
+            background-color: rgb(255, 242, 252);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: antiquewhite;
+
+        }
+        footer {
+            background-color: white;
+            color: rgb(221, 0, 129);
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            border-radius: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header> 
+    <main>
+        <section id="Assuntos">
+            <article>
+                <h2>Como a Bárbara é inteligente</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam qui ipsum corporis consectetur hic! Sequi culpa, minima, et, molestiae architecto repellat harum beatae non temporibus ab asperiores ducimus sit nisi?</p>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ullam quas non obcaecati, explicabo animi eaque. Fugiat id odit illum quod similique nesciunt, dolores quo a? Beatae repellendus placeat itaque.</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus voluptatem dolorem quibusdam dignissimos molestias atque doloremque aliquid quas provident ipsam voluptas aspernatur, amet officia unde id eius ullam, reiciendis natus!</p>
+                <aside>
+                    <p>Artigo escrito por Gabriel Fiori</p>
+                </aside>
+            </article>
+
+        </section>
+    </main> 
+    <footer>
+        <p>Desenvolvido por Bárbara Fiori</p>
+    </footer>
+
+
+</body>
+</html>
