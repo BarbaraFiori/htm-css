@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(100, 100, 100);
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+        thead{
+            background-color: rgb(235, 213, 255);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <Th rowspan="3">Mulheres</Th>
+                <td>Ana Maria</td>
+                <td>Aliens</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+
+            </tr>
+
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>inception</td>
+                <td>Batman</td>
+            </tr>
+
+            <tr>
+                <td>Claudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <Th rowspan="3">Homens</Th>
+                <td>Henrique Fiori</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+
+            </tr>
+
+            <tr>
+                <td>Gabriel Messias</td>
+                <td>Homem-aranha</td>
+                <td>Poderoso Chefão</td>
+                <td>Aliens</td>
+            </tr>
+
+            <tr>
+                <td>João Victor</td>
+                <td>Star Wars</td>
+                <td>Toy story</td>
+                <td>Big Hero</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
